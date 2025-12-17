@@ -1,3 +1,29 @@
 site_name: Portfolio
 theme:
   name: material
+
+
+
+
+site_name: Moje projekty
+site_author: Damian Podbielski
+site_url: https://damianpod.github.io/ds_ai_portfolio/
+site_description: >-
+    Portfolio moich wspaniałych projektów z Data Science i AI!
+
+repo_name: damianpod/ds_ai_portfolio
+repo_url: https://github.com/damianpod/ds_ai_portfolio
+
+theme:
+  name: material
+  palette:
+    primary: yellow
+
+nav:
+- Strona Domowa: index.md
+- Obecny projekt:
+  - "Titanic": titanic/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
+
+
